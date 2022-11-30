@@ -10,11 +10,6 @@ import Foundation
 
 struct CoinPriceData: Codable {
     let asset_id_base: String
-    let rates: [Rate]
-}
-
-struct Rate: Codable {
-    let time: String
     let asset_id_quote: String
     let rate: Double
 }
